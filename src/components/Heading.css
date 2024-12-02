@@ -1,0 +1,26 @@
+/* Title.css */
+.title-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .title-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+  }
+  

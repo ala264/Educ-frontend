@@ -1,0 +1,38 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .question-mark {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .tooltip-text {
+    position: absolute;
+    bottom: 30px; /* Adjust for positioning */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    /* Added properties for text wrapping */
+    max-width: 1000%; /* Adjust width as needed */
+    word-wrap: break-word; /* Ensures words wrap */
+    text-align: center; /* Center-align text */
+  }
+  
