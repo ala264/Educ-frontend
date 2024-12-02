@@ -54,7 +54,7 @@ function InputForm() {
 
   const submitData = async (dataToSend) => {
     try {
-      const response = await fetch('https://educ-backend.onrender.com/api/input', {
+      const response = await fetch('educ-backend.vercel.app/api/input', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dataToSend),
