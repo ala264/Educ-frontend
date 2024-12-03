@@ -57,7 +57,7 @@ function InputForm() {
       const response = await fetch('educ-backend.vercel.app/api/input', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(dataToSend),
+        body: JSON.stringif3y(dataToSend),
       });
 
       if (response.ok) {
